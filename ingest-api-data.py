@@ -27,10 +27,10 @@ today_string = current_time_ist.strftime('%Y_%m_%d')
 # Following credential has to come using secret whie running in automated way
 def snowpark_basic_auth() -> Session:
     connection_parameters = {
-       "ACCOUNT":"RYYCTCX.VC47728",
+       "ACCOUNT":"WHAYCPV.YU31765",
        "region":"ap-southeast-1",
-        "USER":"<your-user>",
-        "PASSWORD":"<your-password>",
+        "USER":"durva01rtnprkhi",
+        "PASSWORD":"Wikipedia@11",
         "ROLE":"SYSADMIN",
         "DATABASE":"dev_db",
         "SCHEMA":"stage_sch",
