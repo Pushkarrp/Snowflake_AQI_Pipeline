@@ -90,9 +90,7 @@ def get_air_quality_data(api_key, limit):
             logging.info(f'File is placed in snowflake stage location= {result_lst}')
             logging.info('The job over successfully...')
             
-            Return the retrieved data
-
-            # pprint(json_data)
+            # Return the retrieved data
             return json_data
 
         else:
